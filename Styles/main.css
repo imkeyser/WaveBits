@@ -242,8 +242,32 @@ nav {
     -webkit-text-fill-color: transparent;
 }
 
+.section__3__container h1 {
+    color: rgb(238, 238, 238);
+    font-size: 3.5vw;
+    font-family: "Helvetica-Now";
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section__4__container h1 {
+    color: rgb(238, 238, 238);
+    font-size: 3.5vw;
+    font-family: "Helvetica-Now";
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
 .collection__homepage {
-    width: 400px;
+    width: 350px;
     height: 450px;
     background: rgb(65, 65, 65);
     border-radius: 15px;
@@ -263,13 +287,36 @@ nav {
 
 .section__2__container {
     width: 100vw;
-    height: 100vh;
     background: #010202;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 200px;
 }
+
+.section__3__container {
+    width: 100vw;
+    height: 100vh;
+    background: #010202;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.section__4__container {
+    width: 100vw;
+    height: 100vh;
+    background: #010202;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+
 
 @media screen and (max-width: 1000px)
 {
@@ -341,6 +388,16 @@ nav {
     .section__2__container h1 {
         font-size: 40px;
     }
+
+    .section__3__container h1 {
+        font-size: 40px;
+    }
+
+    .section__4__container h1 {
+        font-size: 40px;
+    }
+
+    
     
 }
 
