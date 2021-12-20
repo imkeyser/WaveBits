@@ -202,8 +202,8 @@ nav {
 
 .navbar__mobile__menu__icon {
     display: none;
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
 }
 
 .main__container {
@@ -278,7 +278,7 @@ nav {
     }
 
     .navbar__logo {
-        font-size: 8px;
+        font-size: 12px;
     }
 
     .navbar__links {
