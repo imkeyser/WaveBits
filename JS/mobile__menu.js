@@ -1,16 +1,20 @@
 $(function() {
     $('.navbar__mobile__menu__icon').click(function(){
-        main__visibility = $('main').is(':visible');
+        main__visibility = $('.section__1__container').is(':visible');
         if(main__visibility)
         {
-            $('main').fadeOut(50);
-            $('.mobile__menu').fadeIn(200);
+            $('.section__2__container').fadeOut(50);
+            $('.section__1__container').fadeOut(50);
+            $('.mobile__menu').fadeIn(300);
+            $('.mobile__menu').css("display", "flex");
+            
             return false;
         }
         else 
         {
             $('.mobile__menu').fadeOut(50);
-            $('main').fadeIn(200);
+            $('.section__1__container').fadeIn(200);
+            $('.section__2__container').fadeIn(200);
             return false;
         }
     });

@@ -29,9 +29,19 @@ nav {
 .mobile__menu {
     width: 100vw;
     height: 100vh;
-    background: red;
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     display: none;
-    /*display: none;*/
+}
+
+.mobile__menu a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-weight: bolder;
 }
 
 .navbar__container {
