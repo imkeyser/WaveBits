@@ -45,6 +45,9 @@
                 <div>
                     <a href="#contact">Contact</a>
                 </div>
+                <div class="navbar__button__mobile">
+                    <a class="button__medium__neon__blue text-grey" href="/creator.html">Créer</a>
+                </div>
                 <div>
                     <a href="#"><img src="Styles/Images/loupe-icon.png" height="20px"></a>
                 </div>
@@ -84,9 +87,21 @@
                     COLLECTIONS
                 </h1>
                 <div class="collections__grid">
-                    <div class="collection__homepage"></div>
-                    <div class="collection__homepage"></div>
-                    <div class="collection__homepage"></div>
+                    <div class="collection__homepage">
+                        <h1 class="collection__homepage__title">
+                            Acapellas
+                        </h1>
+                    </div>
+                    <div class="collection__homepage">
+                        <h1 class="collection__homepage__title">
+                            Instrumentales
+                        </h1>
+                    </div>
+                    <div class="collection__homepage">
+                        <h1 class="collection__homepage__title">
+                            Samples
+                        </h1>
+                    </div>
                 </div>
             </div>
             <div class="section__3__container" id="about">
@@ -99,7 +114,17 @@
                 <h1>
                     CONTACT
                 </h1>
-                
+                <div class="contact__form__container">
+                    <form>
+                        <input type="text" class="input__text" name="firstname" required placeholder="Prénom">
+                        <input type="text" class="input__text" name="lastname" placeholder="Nom de famille">
+                        <input type="text" class="input__text" name="subject" placeholder="Sujet">
+                        <input type="mail" class="input__mail" name="email" required placeholder="Adresse mail">
+                        <br>
+                        <textarea name="message" class="input_message" required placeholder="Tapez votre message..."></textarea>
+                        <input type="submit" class="button__medium__neon__blue text-grey" value="Envoyer">
+                    </form>
+                </div>
             </div>
             
         </div>

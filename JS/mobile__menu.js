@@ -7,6 +7,7 @@ $(function() {
             $('.section__1__container').fadeOut(50);
             $('.section__3__container').fadeOut(50);
             $('.section__4__container').fadeOut(50);
+            $('.navbar__links').fadeOut(50);
             $('.mobile__menu').fadeIn(300);
             $('.mobile__menu').css("display", "flex");
             
@@ -19,6 +20,7 @@ $(function() {
             $('.section__2__container').fadeIn(200);
             $('.section__3__container').fadeIn(200);
             $('.section__4__container').fadeIn(200);
+            $('.navbar__links').fadeIn(200);
             return false;
         }
     });
